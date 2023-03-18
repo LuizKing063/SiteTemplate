@@ -1,0 +1,111 @@
+.one {
+    width: 100%;
+    height: 6px;
+    background: #766966;
+}
+
+.header {
+    background-color: #ffd2cf;
+    padding: 10px 0;
+    height: 100px;
+}
+  
+.container {
+    display: flex;
+    align-items: center;
+}
+  
+.topo {
+    flex-grow: 1;
+    text-align: right;
+}
+  
+.topo ul {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-end;
+    margin-bottom: 50px; /* Adicionado para subir a lista */
+}
+  
+.topo li {
+    display: inline-block;
+    margin-left: 20px;
+}
+  
+.topo li:first-child {
+    margin-left: 0;
+}
+
+.topo ul li a {
+    font-family: Arial;
+    font-size: 17px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    line-height: 15px;
+    text-decoration: none;
+}
+
+.topo ul li a:hover {
+    color: #f4a8ad;
+}
+  
+.grid-4 {
+    flex-basis: 180px;
+    max-width: 180px;
+    margin-right: 20px;
+}
+  
+.grid-4 img {
+    max-width: 100%;
+    height: auto;
+    width: 100%;
+    object-fit: cover;
+    z-index: 9999;
+}
+
+.banner {
+    width: 100%;
+    height: 300px;
+    background: url(../img/banner.webp) no-repeat center;
+    background-size: cover;
+    text-align: center;
+}
+
+.container-banner {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    height: 100%;
+}
+
+.banner h1 {
+    font-family:'Times New Roman';
+    font-size: 30px;
+    font-weight: bold;
+    color: #FFF;
+    text-transform: uppercase;
+    text-shadow: black 4px 4px 10px;
+    margin-bottom: 20px;
+}
+
+.container-banner .btn-banner {
+    display: inline-block;
+    padding: 10px 20px;
+    background-color: #e76276;
+    color: #FFF;
+    text-transform: uppercase;
+    font-weight: bold;
+    text-decoration: none;
+    border-radius: 10px;
+    transition: background-color 0.2s ease-in-out;
+    box-shadow: black 4px 4px 10px;
+}
+  
+.btn-banner:hover {
+    background-color: #766966;
+    box-shadow: black 6px 6px 12px;
+}
