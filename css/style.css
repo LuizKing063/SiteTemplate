@@ -109,3 +109,76 @@
     background-color: #766966;
     box-shadow: black 6px 6px 12px;
 }
+
+.grid-combos h2 {
+    margin-top: 75px;
+    font-family: 'Times New Roman';
+    font-size: 45px;
+    text-align: center;
+    font-weight: bold;
+    color: #695044;
+    text-transform: uppercase;
+}
+.grid-combos p {
+    font-family: serif;
+    font-size: 24px;
+    color: #766966;
+    text-transform: uppercase;
+    text-align: center;
+}
+
+.combo { 
+    margin-top: 75px;
+}
+
+.combo li {
+    font-family: serif;
+    text-transform: uppercase;
+    text-align: center;
+    font-weight: bold;
+    color: black;
+    font-size: 20px;
+    line-height: 50px;
+    margin-bottom: 10px;
+}
+
+.combo li p {
+    font-family: Georgia;
+    font-size: 12px;
+    font-weight: bold;
+    text-transform: initial;
+    text-align:center;
+    line-height: 20px;
+    margin-bottom: 10px;
+}
+
+.combo img {
+    -webkit-transition: -webkit-transform .5s ease;
+    transition: transform .5s ease;
+    margin-bottom: 20px;
+}
+
+.combo img:hover {
+    -webkit-transform: scale(1.1);
+    transform: scale(1.1);
+}
+
+.combo h3 {
+    background: #ffd2cf;
+    color: #695044;
+    font-weight: bold;
+    margin-right: -10px;
+    margin-left: 10px;
+}
+
+.combo h4 a {
+    background-color: #e76276;
+    padding: 10px;
+    color: #FFF;
+    font-family: 'Times New Roman';
+    line-height: 65px;
+}
+
+#red-flag {
+    color: red;
+}
